@@ -1,0 +1,249 @@
+{
+  "storeSettings": {
+    "paypalClientId": "YOUR_PAYPAL_CLIENT_ID_HERE",
+    "currency": "USD",
+    "taxRate": 0,
+    "shippingFlatRate": 5.99,
+    "customizationPricing": {
+      "monogram": 10.00,
+      "text": 10.00,
+      "image": 15.00
+    }
+  },
+  "categories": [
+    {
+      "id": "monograms",
+      "name": "Monograms",
+      "description": "Personalized monogram embroidery",
+      "image": "https://images.unsplash.com/photo-1586075010923-2dd4570fb338?w=400"
+    },
+    {
+      "id": "apparel",
+      "name": "Apparel",
+      "description": "Custom embroidered clothing",
+      "image": "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?w=400"
+    },
+    {
+      "id": "home-decor",
+      "name": "Home Décor",
+      "description": "Embroidered home accessories",
+      "image": "https://images.unsplash.com/photo-1616046229478-9901c5536a45?w=400"
+    },
+    {
+      "id": "gifts",
+      "name": "Gifts",
+      "description": "Special occasion embroidered gifts",
+      "image": "https://images.unsplash.com/photo-1549465220-1a8b9238cd48?w=400"
+    }
+  ],
+  "customizationOptions": {
+    "monogramStyles": [
+      { "id": "classic", "name": "Classic", "image": "images/samples/monogram-classic.png" },
+      { "id": "circle", "name": "Circle", "image": "images/samples/monogram-circle.png" },
+      { "id": "diamond", "name": "Diamond", "image": "images/samples/monogram-diamond.png" },
+      { "id": "stacked", "name": "Stacked", "image": "images/samples/monogram-stacked.png" }
+    ],
+    "fonts": [
+      { "id": "script", "name": "Script", "image": "images/samples/font-script.png" },
+      { "id": "block", "name": "Block", "image": "images/samples/font-block.png" },
+      { "id": "serif", "name": "Serif", "image": "images/samples/font-serif.png" },
+      { "id": "modern", "name": "Modern", "image": "images/samples/font-modern.png" }
+    ],
+    "threadColors": [
+      { "name": "White", "hex": "#FFFFFF" },
+      { "name": "Black", "hex": "#222222" },
+      { "name": "Navy Blue", "hex": "#1e3a5f" },
+      { "name": "Rose Gold", "hex": "#b76e79" },
+      { "name": "Gold", "hex": "#d4af37" },
+      { "name": "Silver", "hex": "#c0c0c0" },
+      { "name": "Blush Pink", "hex": "#f4c2c2" },
+      { "name": "Forest Green", "hex": "#228b22" },
+      { "name": "Burgundy", "hex": "#800020" },
+      { "name": "Lavender", "hex": "#e6e6fa" }
+    ]
+  },
+  "products": [
+    {
+      "id": "mon-001",
+      "name": "Classic Monogram Towel Set",
+      "category": "monograms",
+      "price": 45.00,
+      "originalPrice": null,
+      "description": "Luxurious cotton towel set with elegant monogram embroidery. Set includes 2 bath towels, 2 hand towels, and 2 washcloths.",
+      "images": [
+        "https://images.unsplash.com/photo-1616627547584-bf28cee262db?w=600",
+        "https://images.unsplash.com/photo-1620626011761-996317b8d101?w=600",
+        "https://images.unsplash.com/photo-1631889993959-41b4e9c6e3c5?w=600"
+      ],
+      "colors": [
+        { "name": "White", "hex": "#FFFFFF" },
+        { "name": "Navy Blue", "hex": "#1e3a5f" },
+        { "name": "Blush Pink", "hex": "#f4c2c2" },
+        { "name": "Sage Green", "hex": "#9dc183" }
+      ],
+      "featured": true,
+      "new": true,
+      "customizable": true,
+      "customizationTypes": ["monogram", "text", "image"],
+      "purchaseType": "quote"
+    },
+    {
+      "id": "app-001",
+      "name": "Embroidered Polo Shirt",
+      "category": "apparel",
+      "price": 35.00,
+      "originalPrice": null,
+      "description": "Premium cotton polo with custom logo or text embroidery. Perfect for businesses or events.",
+      "images": [
+        "https://images.unsplash.com/photo-1625910513413-5fc4e5e4b1d4?w=600",
+        "https://images.unsplash.com/photo-1586790170083-2f9ceadc732d?w=600"
+      ],
+      "colors": [
+        { "name": "White", "hex": "#FFFFFF" },
+        { "name": "Black", "hex": "#222222" },
+        { "name": "Navy Blue", "hex": "#1e3a5f" },
+        { "name": "Red", "hex": "#c41e3a" },
+        { "name": "Forest Green", "hex": "#228b22" }
+      ],
+      "featured": true,
+      "new": false,
+      "customizable": true,
+      "customizationTypes": ["monogram", "text", "image"],
+      "purchaseType": "quote"
+    },
+    {
+      "id": "home-001",
+      "name": "Decorative Throw Pillow",
+      "category": "home-decor",
+      "price": 45.00,
+      "originalPrice": 55.00,
+      "description": "Hand-finished decorative pillow with intricate floral embroidery design. 18x18 inches.",
+      "images": [
+        "https://images.unsplash.com/photo-1584100936595-c0654b55a2e2?w=600",
+        "https://images.unsplash.com/photo-1629949009765-40fc74c9ec21?w=600",
+        "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?w=600"
+      ],
+      "colors": [
+        { "name": "Cream", "hex": "#fffdd0" },
+        { "name": "Dusty Rose", "hex": "#dcae96" },
+        { "name": "Slate Gray", "hex": "#708090" }
+      ],
+      "featured": true,
+      "new": false,
+      "customizable": false,
+      "purchaseType": "checkout"
+    },
+    {
+      "id": "gift-001",
+      "name": "Baby Blanket with Name",
+      "category": "gifts",
+      "price": 55.00,
+      "originalPrice": 65.00,
+      "description": "Soft fleece baby blanket with personalized name embroidery. A perfect baby shower gift.",
+      "images": [
+        "https://images.unsplash.com/photo-1555252333-9f8e92e65df9?w=600",
+        "https://images.unsplash.com/photo-1519689680058-324335c77eba?w=600"
+      ],
+      "colors": [
+        { "name": "Baby Blue", "hex": "#89cff0" },
+        { "name": "Baby Pink", "hex": "#f4c2c2" },
+        { "name": "Mint Green", "hex": "#98fb98" },
+        { "name": "Lavender", "hex": "#e6e6fa" },
+        { "name": "Yellow", "hex": "#fdfd96" }
+      ],
+      "featured": true,
+      "new": true,
+      "customizable": true,
+      "customizationTypes": ["monogram", "text", "image"],
+      "purchaseType": "both"
+    },
+    {
+      "id": "app-002",
+      "name": "Embroidered Denim Jacket",
+      "category": "apparel",
+      "price": 99.00,
+      "originalPrice": 120.00,
+      "description": "Vintage-style denim jacket with custom back embroidery. A statement piece for any wardrobe.",
+      "images": [
+        "https://images.unsplash.com/photo-1551537482-f2075a1d41f2?w=600",
+        "https://images.unsplash.com/photo-1576995853123-5a10305d93c0?w=600",
+        "https://images.unsplash.com/photo-1548126032-079a0fb0099d?w=600"
+      ],
+      "colors": [
+        { "name": "Classic Blue", "hex": "#4a6fa5" },
+        { "name": "Light Wash", "hex": "#a4c8e1" },
+        { "name": "Black Denim", "hex": "#36454f" }
+      ],
+      "featured": false,
+      "new": true,
+      "customizable": false,
+      "purchaseType": "checkout"
+    },
+    {
+      "id": "home-002",
+      "name": "Table Runner Set",
+      "category": "home-decor",
+      "price": 75.00,
+      "originalPrice": null,
+      "description": "Elegant linen table runner with matching napkins featuring delicate embroidered borders.",
+      "images": [
+        "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=600",
+        "https://images.unsplash.com/photo-1617806118233-18e1de247200?w=600"
+      ],
+      "colors": [
+        { "name": "Natural Linen", "hex": "#e8dcc4" },
+        { "name": "White", "hex": "#FFFFFF" },
+        { "name": "Sage", "hex": "#9dc183" }
+      ],
+      "featured": false,
+      "new": false,
+      "customizable": false,
+      "purchaseType": "checkout"
+    },
+    {
+      "id": "mon-002",
+      "name": "Leather Passport Holder",
+      "category": "monograms",
+      "price": 40.00,
+      "originalPrice": null,
+      "description": "Genuine leather passport holder with embroidered initials. Available in multiple colors.",
+      "images": [
+        "https://images.unsplash.com/photo-1553531384-cc64ac80f931?w=600",
+        "https://images.unsplash.com/photo-1544816565-aa8c1166648f?w=600"
+      ],
+      "colors": [
+        { "name": "Tan", "hex": "#d2b48c" },
+        { "name": "Brown", "hex": "#8b4513" },
+        { "name": "Black", "hex": "#222222" },
+        { "name": "Burgundy", "hex": "#800020" }
+      ],
+      "featured": false,
+      "new": false,
+      "customizable": true,
+      "customizationTypes": ["monogram", "text", "image"],
+      "purchaseType": "both"
+    },
+    {
+      "id": "gift-002",
+      "name": "Wedding Handkerchief Set",
+      "category": "gifts",
+      "price": 50.00,
+      "originalPrice": null,
+      "description": "Delicate lace-trimmed handkerchiefs with custom embroidered initials and wedding date.",
+      "images": [
+        "https://images.unsplash.com/photo-1522673607200-164d1b6ce486?w=600",
+        "https://images.unsplash.com/photo-1519741347686-c1e0aadf4611?w=600",
+        "https://images.unsplash.com/photo-1520854221256-17451cc331bf?w=600"
+      ],
+      "colors": [
+        { "name": "White", "hex": "#FFFFFF" },
+        { "name": "Ivory", "hex": "#fffff0" }
+      ],
+      "featured": false,
+      "new": false,
+      "customizable": true,
+      "customizationTypes": ["monogram", "text", "image"],
+      "purchaseType": "quote"
+    }
+  ]
+}
